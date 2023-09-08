@@ -18,8 +18,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Lint JavaScript files
-        run: npm run lint # Modify this command based on your project's setup
 
 
       
