@@ -7,9 +7,6 @@ jobs:
     name: Run Linters
     runs-on: ubuntu-latest
     steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v2
-
       - name: Check code
         uses: actions/checkout@v3
 
