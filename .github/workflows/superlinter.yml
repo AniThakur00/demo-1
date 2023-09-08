@@ -15,8 +15,13 @@ jobs:
         with:
           node-version: 12
 
-      - name: Run linters
-        uses: wearerequired/lint-action@v2
-        with:
-          eslint: true
-          prettier: true
+      - name: Install dependencies
+        run: npm install
+
+      - name: Lint JavaScript files
+        run: npm run lint # Modify this command based on your project's setup
+
+
+      
+
+      
